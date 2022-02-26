@@ -2,3 +2,15 @@ def format_txt(path: str): -> list
     with open(path,'r') as f:
         data = f.read()
     return data
+
+
+def extract_info(path: str): -> list
+    with open(path,'r') as f:
+        data = f.read()
+    return data
+
+
+def format_py_files(path: str): -> list
+    with open(path,'r') as f:
+        data = f.read()
+    return data
